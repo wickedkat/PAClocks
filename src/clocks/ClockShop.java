@@ -19,7 +19,7 @@ public class ClockShop {
         allClocks.add(clock);
     }
 
-    public void differenciateSpeed(){
+    public void differenciateSpeed(){   /* not very elaborate way to make some clocks rush and some delay */
         for (Clock clock: allClocks
         ) {if(clock.getSpeed()==0){
             clock.tick();}

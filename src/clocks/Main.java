@@ -23,6 +23,7 @@ public class Main {
         }
         System.out.println("");
         alarmClock.setAlarmTime(18,45,0);
+        alarmClock.printTimeLeftToSleep();
         shop.differenciateSpeed();
         for (int i = 0; i < 1200; i++) {
             shop.tickAllClocks();

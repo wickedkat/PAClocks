@@ -17,16 +17,17 @@ public class AlarmClock extends Clock {
     }
 
     public void checkAlarm(){
-        if(alarmTime.getHour()== getTime().getHour() && alarmTime.getMin()==getTime().getMin() && alarmTime.getSec()==getTime().getSec()){
+        if(alarmTime.getHour()== getTime().getHour() && alarmTime.getMin()==getTime().getMin()
+                && alarmTime.getSec()==getTime().getSec() && alarmOn){
             makeAlarm();
             setAlarmOn(false);
         }
     }
 
     public void makeAlarm(){
-        System.out.println(getSound());
-        System.out.println(getSound());
         printTime(getTime());
+        System.out.println(getSound());
+        System.out.println(getSound());
         System.out.println("");
     }
 
