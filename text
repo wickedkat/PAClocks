@@ -1,0 +1,31 @@
+There are different types of Clocks:
+Wall Clocks,
+Watches,
+Alarm Clocks, and there is
+Big Ben.
+
+Clocks have a lot in common:
+they can be set to a time,
+can be read,
+and they can be fast or slow.
+And they can make a sound.
+
+Wall Clocks say “Cuckoo”, Watches say “Tick Tock”, Alarm Clocks say “Buzzz”, and Big Ben says “Big Ben”.
+
+Watches have an extra parameter, color; this can be set only once.
+
+Alarm Clocks have an extra functionality: they can be set to an alarm time and be asked how much time do we have left to sleep.
+
+There exists only one Big Ben in the whole world.
+
+Clocks can measure the passage of time in seconds.
+All of them know the actual hour, minute, and second (three int variables).
+
+Every watch can record the passage of time, one second at a time, one tick at a time.
+
+Create a Clock Shop where multiple different clocks are displayed.
+Model the passage of time in a main function: each clock ticks one second at a time.
+In each second display the state of every clocks state.
+In every hour each clock sound (watch out for alarm clocks!)
+
+Hints: you should have an abstract class, use inheritance, data hiding and make sure there is no code repetition
